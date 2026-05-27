@@ -48,7 +48,26 @@ public class Aula04Operadores {
         boolean emprestimoAprovado = idadedoClienteBancario <= 60 && salarioEsseMes > 2500.0;
         System.out.println("O empréstimo foi aprovado para o cliente " + emprestimoAprovado);
 
+// Classificação de Jogador de Futebol
+        int idadeDoAtleta = 13;
+        double alturaDoAtleta = 1.70;
+        boolean categoriaJuvenil = idade >= 13 && alturaDoAtleta > 1.75;
 
+ // Aprovador Automático de E-Commerce (Anti-Fraude)
+        double valorDaCompra1 = 1200.00;
+        double limiteDoCartão = 1500.00;
+        int quantidadeDoMesmoItem = 3;
+        int historicoBloqueios = 0;
+        boolean compraLiberada = valorDaCompra1 <= limiteDoCartão && quantidadeDoMesmoItem < 3 && historicoBloqueios == 0;
+
+
+// Controle de Acesso da Balada
+        int idadePermitidaBalada = 19;
+        boolean estaBanido = false;
+        boolean entradaLiberada = (idadePermitidaBalada >= 18) && (estaBanido == false);
+        System.out.println ("A entrada está liberada ? " +entradaLiberada);
+
+//
     }
 
 
