@@ -35,8 +35,20 @@ public class Aula04Operadores {
         boolean temCarteirnhadeEstudante = true;
         boolean PodeEntrarse =  idadeParaCinema <= 12 && temCarteirnhadeEstudante;
 
-//
-        System.out.println(PodeEntrarse);
+// Sistema de login simples
+        int usuarioCadastrado = 12345;
+        int senhaCadastrada = 9999;
+        int usuarioCorretoCadastrado = 12345;
+        int senhaCadastradaCorreta  = 9999;
+        boolean loginSucesso = usuarioCadastrado == usuarioCorretoCadastrado & senhaCadastrada == senhaCadastradaCorreta;
+
+ // Validação de emprestimo bancário
+        int idadedoClienteBancario = 60;
+        double salarioEsseMes = 2500.0;
+        boolean emprestimoAprovado = idadedoClienteBancario <= 60 && salarioEsseMes > 2500.0;
+        System.out.println("O empréstimo foi aprovado para o cliente " + emprestimoAprovado);
+
+
     }
 
 
